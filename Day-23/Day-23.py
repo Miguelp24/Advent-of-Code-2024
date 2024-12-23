@@ -38,6 +38,6 @@ with open("./Day-23/input.in") as file:
   input = [i for i in file.read().strip().split("\n")]
 
 solution_1 = lan_parties_with_t
-solution_2 = 0
+solution_2 = max_lan_size
 
 print ("Answer to Day 23: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
